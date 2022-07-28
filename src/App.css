@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cross_me{
+    position: relative;
+    width: 115px;
+    top: -34px;
+    left: 224px;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #0084ff00;
+    color: rgb(255 221 0 / 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+@media (max-width: 1376px) {
+    .cross{
+        position: relative;
+        width: 115px;
+        top: -34px;
+        left: 224px;
+        height: 25px;
+        border-radius: 6px;
+        background-color: #0084ff00;
+        color: rgb(255 221 0 / 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 100;
+    }
+  }
+
+
+  ::-webkit-scrollbar{
+    display: none;
+  }

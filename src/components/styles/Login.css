@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=IBM+Plex+Sans:wght@100;200;300;500&family=Josefin+Sans:wght@500&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100;400&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=News+Cycle&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,200;0,500;1,400&family=Roboto:wght@100&family=Sarabun:wght@200&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:wght@300;700&family=Tajawal&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+
+.model_baba{
+    height: 673px;
+}
+
+.absolute_col{
+    position: absolute;
+    top: 200px;
+}
+.ss{
+    text-decoration: none;
+    color: blue;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+
+}
+
+.login_btn_go{
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+}
+
+.visual_col{
+    margin-top: 70px;
+
+}
+.already{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+/* -------------------------------------------------- */ 
+.img__illist{
+    width: 258px;
+    height: 260px;
+    margin-top: 50px;
+}
+
+.tnt{
+    margin-top: 70px;
+}
+
+.tnt_text{
+    font-size: 10px;
+}
+
+.cross{
+    position: relative;
+    width: 40px;
+    top: 94px;
+    left: 1118px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #0084ff00;
+    color: rgb(255 221 0 / 0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+
+.message__box{
+    width: 796px;
+    height: 50px;
+    background: #EFFFF4;
+    border-radius: 8px 8px 0px 0px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text__msg{
+    width: 629px;
+    height: 16px;
+    margin-top: 10px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #008A45;
+}
+
+.signIn_col{
+    margin-top: 70px;
+    margin-left: 25px;
+
+}
+.form_signIn{
+    width: 320px;
+    height: 180px;
+    background-color: rgba(145, 145, 145, 0.403);
+}
+
+.form_logIn{
+    width: 320px;
+    height: 90px;
+    background-color: rgba(145, 145, 145, 0.403);
+}
+
+.forgot{
+    outline: none;
+    background-color:white;
+}
+
+.fname,.lname{
+    width:160px ;
+    height: 46px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    padding-left: 10px;
+    background-color:#F7F8FA;
+}
+.email,.pass,.pass2{
+    width: 320px;
+    height: 46px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.434);
+    padding-left: 10px;
+    background-color:#F7F8FA;
+
+}
+.name{
+    display: flex;
+}
+
+.btn__account{
+    width: 320px;
+    height: 46px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.btn__log{
+    width: 320px;
+    height: 46px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color:#F7F8FA;
+    outline: none;
+    border: 1px solid white;
+}
+
+
+
+
+@media (max-width: 989px) {
+   .container__login{
+    display: none;
+   }
+ }
+
+
+ @media (max-width: 1376px) {
+    .cross{
+        position: relative;
+        width: 40px;
+        top: 94px;
+        left: 788px;
+        height: 35px;
+        border-radius: 6px;
+        background-color: #0084ff00;
+        color: rgb(255 221 0 / 0%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .visual{
+        display: none;
+    }
+
+    .message__box{
+        display: none;
+    }
+
+    .foot_er{
+        
+    }
+    .row__height{
+        height: 650px;
+    }
+
+    .btn__account{
+        width: 310px;
+        height: 40px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    .tnt{
+        margin-top: 70px;
+    }
+
+    .foot_1{
+
+    }
+    
+    .tnt_text{
+        font-size: 10px;
+    }
+
+    .already{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 32px;
+        margin-top: 192px;
+    }
+  }
+
+  @media (max-width: 1193px) {
+    
+  }

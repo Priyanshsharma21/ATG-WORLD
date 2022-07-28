@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=IBM+Plex+Sans:wght@100;200;300;500&family=Josefin+Sans:wght@500&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100;400&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=News+Cycle&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,200;0,500;1,400&family=Roboto:wght@100&family=Sarabun:wght@200&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:wght@300;700&family=Tajawal&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.post__image{
+    width:36px;
+    height: 36px;
+    border-radius: 21px;
+    margin-right: 10px;
+}
+
+.postedBy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.views{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_views{
+    margin-top: 10px;
+    position: absolute;
+    right: 76px;
+}
+
+
+.title__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    display: none;
+}
+
+.toggle_btn_post{
+    width: 62px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__share{
+    background: #EDEEF0;
+    border-radius: 2px;
+}
+
+.card__image__main{
+    height: 500px;
+}
+
+
+
+@media (max-width: 989px) {
+    .card__image__main{
+        height: 200px;
+    }
+    .card_title{
+        width: 380px;
+        height: 42px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #212529;
+    }
+
+    .postedBy{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .card_dim{
+        height: 430px;
+    }
+
+
+    .card_desc{
+        width: 354px;
+        height: 18px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #495057;
+    }
+    
+ }
+
+ @media (max-width: 400px) {
+    .card_desc{
+        width: 324px;
+        max-width: 300px;
+        height: 18px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #495057;
+    }
+    .card_title{
+        width: 280px;
+        height: 42px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #212529;
+    }
+    
+    .views{
+        margin-top: 20px;
+    }
+
+    .card_views {
+        margin-top: 28px;
+        position: absolute;
+        right: 222px;
+        font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .card_desc{
+        width: 324px;
+        max-width: 300px;
+        height: 18px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #495057;
+        margin-top: 20px;
+        
+    }
+
+    .card_views{
+        margin-top: 10px;
+        position: absolute;
+        right: 160px;
+        bottom: -10px;
+        font-size: 0.9rem;
+    }
+
+    
+  }

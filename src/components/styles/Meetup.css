@@ -1,0 +1,205 @@
+.date_loc_cont{
+    display: flex;
+}
+
+.card_desc{
+    margin-right: 100px;
+}
+
+.btn_website{
+    display: flex;
+    width: 712px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 0.7px solid #A9AEB8;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 30px; */
+    margin-bottom: 25px;
+}
+
+.visit_web{
+    font-family: 'IBM Plex Sans';
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    text-align: center;
+    color: #E56135;
+}
+.visit_web:hover{
+    font-family: 'IBM Plex Sans';
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    text-align: center;
+    color: #ff4000;
+}
+
+.card_title{
+    max-width: 600px;
+}
+
+.title__cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn__toggle__meetup{
+    background-color: #BFBFC0;
+    border: none;
+}
+
+.btn__share::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    display: none;
+}
+
+.postedBy{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+@media (max-width: 989px) {
+
+    .btn_website{
+        display: flex;
+        width: 560px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 30px; */
+        margin-bottom: 25px;
+    }
+    .card_title{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1365px) {
+
+    .btn_website{
+        display: flex;
+        width: 590px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 30px; */
+        margin-bottom: 25px;
+    }
+    .card_title{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+  }
+
+
+  @media (max-width: 535px) {
+
+    .btn_website{
+        display: flex;
+        width: 200px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 30px; */
+        margin-bottom: 25px;
+    }
+    .card_title{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+  }
+
+  
+  @media (max-width: 766px) {
+    .btn_website{
+        display: flex;
+        width: 400px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 30px; */
+        margin-bottom: 25px;
+    }
+    .card_title{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1193px) {
+
+    .btn_website{
+        display: flex;
+        width: 300px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 0.7px solid #A9AEB8;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 30px; */
+        margin-bottom: 25px;
+    }
+    .card_title{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+
+    .loc__me{
+        font-size: 0.7rem;
+        width: 290px;
+    }
+
+    .company_name{
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+
+    .btn_website{
+        margin-top: 12px;
+    }
+
+    .date_loc_cont{
+        display: flex;
+    }
+    .eye_of_tiger{
+        display: none;
+    }
+
+    
+  }
+
+  
+
+  

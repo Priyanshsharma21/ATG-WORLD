@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=IBM+Plex+Sans:wght@100;200;300;500&family=Josefin+Sans:wght@500&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100;400&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=News+Cycle&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,200;0,500;1,400&family=Roboto:wght@100&family=Sarabun:wght@200&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:wght@300;700&family=Tajawal&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+.banner {
+    position: relative;
+    height: 448px;
+    color: white;
+    object-fit: contain;
+  }
+  
+  .banner__contents {
+    margin-left: 240px;
+    padding-top: 250px;
+    height: 190px;
+  }
+  
+  .banner__title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    height: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  z-index: 10;
+
+    line-height: 47px;
+  }
+  
+  .banner__description {
+  
+    width: 377px;
+    height: 23px;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+    left: 200px;
+    top: 409px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    z-index: 10;
+  }
+  
+  .banner--fadeBottom {
+    height: 12.4rem;
+    position: absolute;
+    left: 0;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, .21),
+      #111
+    );
+  }
+  
+
+  @media (max-width: 989px) {
+    .hero__cont{
+        display: relative;
+    }
+    .banner {
+        position: absolute;
+        top: 0;
+        width: 360px;
+        height: 236px;
+        width: 100%;
+        color: white;
+        object-fit: contain;
+      }
+
+      .banner__contents {
+        margin-left: 10px;
+        padding-top: 130px;
+        height: 190px;
+      }
+
+
+      .banner__title {
+        width: 179px;
+        height: 22px;
+        left: 16px;
+        top: 188px;
+        font-family: 'IBM Plex Sans', sans-serif;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
+      
+      .banner__description {
+        width: 258px;
+        height: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+        left: 16px;
+        top: 212px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+      }
+
+      .banner--fadeBottom {
+        height: 3.4rem;
+        background-image: linear-gradient(
+          180deg,
+          transparent,
+          rgba(37, 37, 37, .61),
+          #111
+        );
+      }
+  }
